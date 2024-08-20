@@ -216,26 +216,39 @@ nav a{
     height: 500px;
 }
 /* ! */
-.home{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-.home-home h1{
-    font-size: 50px;
-    margin-bottom: 20px;
-}
-.input input{
-    padding: 10px 30px;
-    border-radius: 8px;
-    border: none;
-    background: gray;
-}
-.input button{
-    background: #00CCCC;
-    padding: 10px 30px;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-}
+#end { 
+    padding: 60px 0; 
+  } 
+   
+  .end { 
+    display: flex; 
+    justify-content: center; 
+  } 
+   
+  .end-text { 
+    display: flex; 
+    flex-flow: column; 
+    align-items: center; 
+  } 
+   
+  .end-text h1 { 
+    font-size: 30px; 
+    padding: 10px 0; 
+  } 
+   
+  .end-c input { 
+    padding: 10px 50px; 
+    border-radius: 5px; 
+    margin-block: 30px; 
+  } 
+   
+  .end-c button { 
+    background: #00cccc; 
+    font-size: 16px; 
+    color: #0f2336; 
+    width: 100px; 
+    height: 40px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    border: none; 
+  }
